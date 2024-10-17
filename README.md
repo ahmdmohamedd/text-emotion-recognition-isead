@@ -1,6 +1,6 @@
 # Text Emotion Recognition System
 
-This repository contains a MATLAB implementation of a text-based emotion recognition system using the **ISEAR** dataset. The model leverages Support Vector Machine (SVM) techniques to classify emotions expressed in text and allows predictions from external text inputs.
+This repository contains a MATLAB implementation of a text-based emotion recognition system using the **ISEAR** dataset. The model leverages Support Vector Machine (SVM) techniques to classify emotions expressed in text.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -11,8 +11,8 @@ This repository contains a MATLAB implementation of a text-based emotion recogni
 - [Model Training](#model-training)
 - [Testing with External Text](#testing-with-external-text)
 - [Evaluation Metrics](#evaluation-metrics)
+- [Results](#Results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -53,7 +53,6 @@ To run this project, you need:
    - Load and preprocess the data.
    - Train the SVM model.
    - Evaluate the model on the test set.
-   - Predict emotions for external text inputs.
 
 ## Model Training
 
@@ -68,6 +67,16 @@ The system allows users to input external text to predict the emotion associated
 The model's performance is evaluated using:
 - Confusion Matrix: Displays the classification results across different emotions.
 - Accuracy: Percentage of correctly classified instances.
+
+## Results
+- **Confusion Matrix**:
+```
+   299    20     4    17
+    17   398     7    28
+    12    24   285     3
+    23    46     9   228
+```
+- **Accuracy**: **85.21%**
 
 ## Contributing
 
